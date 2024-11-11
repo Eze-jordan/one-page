@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="Fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Caddy-TECH">
+    <meta name="keywords" content="">
+    <meta name="author" content="EZE Jordan">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="shortcut icon " type="image/png" href="https://dqah5woojdp50.cloudfront.net/optimized/2X/f/ff87f3ea930883f5a802c0e04d43f8b743d0ab89_2_310x223.png">
+    <title>Caddy-TECH</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #FFFFFF;
+            font-family: "Montserrat" , sans-serif;
+        }
+
+        .fullwidth {
+            position: relative;
+            width: 100%
+        }
+
+        #page-header {
+            height: 200px;
+        }
+
+        #page-header .grid .grid-header {
+            display: grid;
+            grid-template-columns: auto auto;
+            background-color: #22b638;
+        }
+
+        #page-header .grid .grid-header .column-1 {
+            padding-left: 20px;
+            padding-top: 20px;
+            padding-bottom: 10px;
+        }
+
+        #page-header .grid .grid-header .column-1 a {
+            margin-right: 20px;
+        }
+
+        #page-header .grid .grid-header .column-1 a span {
+            margin-left: 5px;
+            font-weight: bold;
+           
+        }
+
+        #page-header .grid .grid-header .column-2 {
+            padding-left: 20px;
+            padding-top: 20px;
+            padding-bottom: 10px;
+            text-align: right;
+        }
+
+        #page-header .grid .grid-header .column-2 a {
+            margin-right: 20px;
+        }
+
+        #page-header .grid .grid-header .column-2 .fa {
+            width: 40px;
+            height: 40px;
+            border-radius: 40px;
+            border: none;
+            outline: none;
+            font-size: 20px;
+        }
+
+        #page-header .grid .grid-header .column-2 .fa-facebook {
+            background-color: #0866ff;
+            color: #FFFFFF;
+        }
+
+        #page-header .grid .grid-header .column-2 .fa-linkedin{
+			background-color: #007BB5;
+			color: #FFFFFF;
+          
+        }
+
+        #page-header .grid .grid-header .column-2 .fa-whatsapp {
+            background-color: #29a71a;
+            color: #FFFFFF;
+        
+        }
+          #page-header .grid .grid-header .column-2 .fa-youtube-play{
+			background-color: #BB0000;
+			color: #FFFFFF;
+		}
+          #page-header .grid .grid-header .column-2 .fa-twitter{
+			background-color: #55ACEE;
+			color: #FFFFFF;
+		}
+
+        #page-header .grid .grid-body {
+            display: grid;
+            grid-template-columns: 30% 70%;
+            background-color: #FFFFFF;
+        }
+
+        #page-header .grid .grid-body .column-1 a .logo {
+            width: 380px;
+            height: 150px;
+            padding-left: 10px;
+            
+        }
+
+        #page-header .grid .grid-body .column-2 {
+            padding-top: 70px;
+            text-align: right;
+            
+
+        }
+
+        #page-header .grid .grid-body .column-2 a {
+            margin-right: 40px;
+            text-decoration: none;
+            text-align: center;
+            font-size: 30px;
+            color: #000000;
+            font-weight: bold;
+        }
+
+        #page-header .grid .grid-body .column-2 a:hover {
+            color: #1f88c0;
+        }
+
+
+        #page-body #fullwidth-image {
+            width: 100%;
+            height: 500px;
+            position: relative;
+            background-image: url(https://img.freepik.com/free-photo/view-male-engineer-work-engineers-day-celebration_23-2151615006.jpg?t=st=1729655605~exp=1729659205~hmac=6fb67be8e3368d74b57c8e49c596ba3992721ff918dcc978c319bdf37631b8c2&w=900);
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        #page-body #fullwidth-image .overlay {
+            padding-top: 60px;
+            color: #FFFFFF;
+            text-align: center;
+            margin: 20px;
+            font-size: 30px;
+        }
+        
+
+        #page-body #services .grid {
+            text-align: center;
+            padding-top: 20px;
+            background-color: #FFFFFF;
+            height: 260px;
+        }
+
+        #page-body #services .grid-body {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            text-align: center;
+            margin: 20px;
+        }
+
+
+        #page-body #services .grid-body .column {
+            padding-left: 20px;
+            padding-top: 20px;
+            text-align: center;
+        }
+
+        #page-body #portfolio {
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            background-color: #1f88c0;
+        }
+
+        #page-body #portfolio .grid .grid-body {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            margin: 20px;
+
+        }
+
+        #page-body #portfolio .grid-body .column img {
+            width: 300px;
+            height: 300px;
+            text-align: center;
+            margin-left: 20px;
+            padding-top: 10px;
+            margin: 20px;
+        }
+
+     
+
+        #page-body #temoignage .grid .grid-body {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-gap: 20px;
+            padding-top: 20px;
+            background-color: #FFFFFF;
+        }
+
+        #page-body #temoignage .grid .grid-body .column {
+            text-align: center;
+            margin: 20px;
+        }
+
+        #page-body #temoignage .grid {
+            text-align: center;
+            padding-top: 20px;
+            background-color: #FFFFFF;
+        }
+
+        #page-body #contact {
+            background-color: #1f88c0;
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        #page-body #contact .grid .grid-body {
+            display: grid;
+            grid-template-columns: auto auto;
+            text-align: center;
+            padding-top: 10px;
+        }
+
+        #page-body #contact .grid .grid-body .column .form-control .input {
+            height: 35px;
+            width: 90%;
+            outline: none;
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+
+        #page-body #contact .grid .grid-body .column .form-control .textarea {
+            height: 100px;
+            width: 90%;
+            outline: none;
+            padding-right: 10px;
+            padding-left: 10px;
+
+        }
+
+        #page-body #contact .grid .grid-body .column .form-control {
+            padding-bottom: 40px;
+
+        }
+
+        #page-body #contact .grid .grid-body .column .submit-button {
+            padding: 10px 20px;
+            background-color: #1f88c0;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        #page-body #contact .grid .grid-body .column .submit-button:hover {
+            background-color: #0056b3;
+        }
+
+        #page-footer {
+            height: 40px;
+            background-color: #000000;
+            text-align: center;
+            padding-top: 10px;
+        }
+        #page-footer a{
+            color:#FFFFFF
+        }
+    </style>
+</head>
+
+<body>
+    <div class="fullwidth" id="page-header">
+        <div class="grid">
+            <div class="grid-header">
+                <div class="column column-1">
+                    <a>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0
+                            -960 960 960" width="24px" fill="#ffffff">
+                            <path d="M160-160q-33
+                            0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5
+                            23.5T880-720v480q0 33-23.5
+                            56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80
+                            320-200H160l320 200ZM160-640v-80 480-400Z" />
+                        </svg>
+                        <span>ezejordan@contact.com</span>
+                    </a>
+                    <a>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0
+                        -960 960 960" width="24px" fill="#ffffff">
+                            <path d="M798-120q-125
+                        0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0
+                        25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31
+                        31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9
+                        23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26
+                        79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358
+                        358Z" />
+                        </svg>
+                        <span> 00241-062262214</span>
+                    </a>
+                </div>
+                <div class="column column-2">
+               	<a href=""><button class="fa fa-facebook"></button></a>
+					<a href=""><button class="fa fa-linkedin"></button></a>
+					<a href=""><button class="fa fa-youtube-play"></button></a>
+					<a href=""><button class="fa fa-twitter"></button></a>
+					<a href=""><button class="fa fa-whatsapp"></button></a>
+					
+                </div>
+            </div><!--lien-RS-->
+            <div class="grid-body">
+                <div class="column column-1">
+                    <a href="/">
+                        <img class="logo"
+                            src="https://dqah5woojdp50.cloudfront.net/optimized/2X/d/d2493a68c9cbaf275d9ac596dca4521c514f0c3e_2_1035x360.png">
+                    </a><!--logo-->
+                </div>
+                <div class="column column-2">
+                    <a href="#services">Services</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#temoignage">Temoignage</a>
+                    <a href="#contact">Contact</a>
+                </div><!--le-menu-->
+            </div>
+        </div>
+    </div><!--page-header-->
+
+    <div class="fullwidth" id="page-body">
+        <div class="grid">
+            <div class="fullwidth" id="fullwidth-image">
+                <div class="overlay">
+                    <h1>Caddy-TECH</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Nostrum, beatae! Aut nihil soluta eaque ad nemo! Quos voluptas vel impedit atque.
+                        Inventore, velit adipisci doloremque eaque quisquam pariatur consequuntur facere.</p>
+                </div>
+            </div>
+        </div>
+        <div class="fullwidth" id="services">
+            <div class="grid">
+                <div class="grid-header">
+                    <h2 class="title">Nos Services</h2>
+                </div>
+                <div class="grid-body">
+                    <div class="column column-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
+                            fill="#000000">
+                            <path
+                                d="M120-120v-80l80-80v160h-80Zm160 0v-240l80-80v320h-80Zm160 0v-320l80 81v239h-80Zm160 0v-239l80-80v319h-80Zm160 0v-400l80-80v480h-80ZM120-327v-113l280-280 160 160 280-280v113L560-447 400-607 120-327Z" />
+                        </svg>
+                        <h3>Monitoring Informatique</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia impedit quod aliquam
+                            voluptatum eaque quam iusto
+                            incidunt sit placeat quis officia veniam, suscipit perspiciatis, repellat, voluptates nihil
+                            natus. Odio, est.</p>
+                    </div>
+                    <div class="column column-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
+                            fill="#000000">
+                            <path
+                                d="M42-120v-112q0-33 17-62t47-44q51-26 115-44t141-18q77 0 141 18t115 44q30 15 47 44t17 62v112H42Zm80-80h480v-32q0-11-5.5-20T582-266q-36-18-92.5-36T362-320q-71 0-127.5 18T142-266q-9 5-14.5 14t-5.5 20v32Zm240-240q-66 0-113-47t-47-113h-10q-9 0-14.5-5.5T172-620q0-9 5.5-14.5T192-640h10q0-45 22-81t58-57v38q0 9 5.5 14.5T302-720q9 0 14.5-5.5T322-740v-54q9-3 19-4.5t21-1.5q11 0 21 1.5t19 4.5v54q0 9 5.5 14.5T422-720q9 0 14.5-5.5T442-740v-38q36 21 58 57t22 81h10q9 0 14.5 5.5T552-620q0 9-5.5 14.5T532-600h-10q0 66-47 113t-113 47Zm0-80q33 0 56.5-23.5T442-600H282q0 33 23.5 56.5T362-520Zm300 160-6-30q-6-2-11.5-4.5T634-402l-28 10-20-36 22-20v-24l-22-20 20-36 28 10q4-4 10-7t12-5l6-30h40l6 30q6 2 12 5t10 7l28-10 20 36-22 20v24l22 20-20 36-28-10q-5 5-10.5 7.5T708-390l-6 30h-40Zm20-70q12 0 21-9t9-21q0-12-9-21t-21-9q-12 0-21 9t-9 21q0 12 9 21t21 9Zm72-130-8-42q-9-3-16.5-7.5T716-620l-42 14-28-48 34-30q-2-5-2-8v-16q0-3 2-8l-34-30 28-48 42 14q6-6 13.5-10.5T746-798l8-42h56l8 42q9 3 16.5 7.5T848-780l42-14 28 48-34 30q2 5 2 8v16q0 3-2 8l34 30-28 48-42-14q-6 6-13.5 10.5T818-602l-8 42h-56Zm28-90q21 0 35.5-14.5T832-700q0-21-14.5-35.5T782-750q-21 0-35.5 14.5T732-700q0 21 14.5 35.5T782-650ZM362-200Z" />
+                        </svg>
+                        <h3>Maintenance et Tierce maintenance applicative (TMA)</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas facilis numquam, voluptatem
+                            sunt excepturi provident
+                            nesciunt maxime atque illum ullam, distinctio unde a odio sed iusto harum aliquid eius
+                            soluta?</p>
+                    </div>
+                    <div class="column column-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
+                            fill="#000000">
+                            <path
+                                d="M480-80q-139.67-35-229.83-161.5Q160-368 160-520v-240l320-120 320 120v240q0 152-90.17 278.5Q619.67-115 480-80Zm0-69.33q103-33.34 171-125.17T730.67-480H480v-328.33l-253.33 94.66V-520q0 11.67.33 19.67.33 8 2.33 20.33H480v330.67Z" />
+                        </svg>
+                        <h3>Sécurité Informatique</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas facilis numquam, voluptatem sunt
+                            excepturi provident
+                            nesciunt maxime atque illum ullam, distinctio unde a odio sed iusto harum aliquid eius soluta?
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="fullWidth" id="portfolio">
+            <div class="grid">
+                <div class="grid-header">
+                    <h2 class="title">Portfolio</h2>
+                </div>
+                <div class="grid-body">
+                    <div class="column column-1">
+                        <img
+                            src="https://img.freepik.com/free-photo/full-shot-man-experiencing-virtual-reality_23-2149548139.jpg">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt reprehenderit nulla quaerat
+                            et eius molestiae beatae suscipit,
+                            dolores velit placeat, repellat tempore enim amet id nihil necessitatibus illum illo optio!
+                        </p>
+                    </div>
+                    <div class="column column-2">
+                        <img
+                            src="https://img.freepik.com/free-photo/close-up-hardware-component-background_23-2148882663.jpg">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sapiente, cum atque
+                            accusamus ex enim! Voluptatibus architecto,
+                            ducimus eaque temporibus id expedita nobis error, vero repellat, placeat maiores explicabo
+                            consequuntur.</p>
+                    </div>
+                    <div class="column column-3">
+                        <img src="https://img.freepik.com/free-photo/various-hi-tech-devices-table_140725-9010.jpg">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum aspernatur eius quam quia
+                            omnis, dolores ipsa debitis minima dignissimos distinctio dolor blanditiis voluptas.
+                            Praesentium tempora laboriosam temporibus possimus, asperiores maiores.</p>
+                    </div>
+                </div>
+            </div>
+        </div><!--#portfolio-->
+        <div class="fullWidth" id="temoignage">
+            <div class="grid">
+                <div class="grid-header">
+                    <h2 class="title">Ce que disent nos clients</h2>
+                </div>
+                <div class="grid-body">
+                    <div class="column column-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
+                            fill="#000000">
+                            <path d="M480-480.67q-66 0-109.67-43.66Q326.67-568 326.67-634t43.66-109.67Q414-787.33 480-787.33t109.67 43.66Q633.33-700 633.33-634t-43.66 109.67Q546-480.67 480-480.67ZM160-160v-100q0-36.67 18.5-64.17T226.67-366q65.33-30.33 127.66-45.5 62.34-15.17 125.67-15.17t125.33 15.5q62 15.5 127.28 45.3 30.54 14.42 48.96 41.81Q800-296.67 800-260v100H160Zm66.67-66.67h506.66V-260q0-14.33-8.16-27-8.17-12.67-20.5-19-60.67-29.67-114.34-41.83Q536.67-360 480-360t-111 12.17Q314.67-335.67 254.67-306q-12.34 6.33-20.17 19-7.83 12.67-7.83 27v33.33ZM480-547.33q37 0 61.83-24.84Q566.67-597 566.67-634t-24.84-61.83Q517
+								-720.67 480-720.67t-61.83 24.84Q393.33-671 393.33-634t24.84 61.83Q443-547.33 480-547.33Zm0-86.67Zm0 407.33Z" />
+                        </svg>
+                        <h5>Laurel</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet
+                            consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    </div>
+                    <div class="column column-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
+                            fill="#000000">
+                            <path d="M480-480.67q-66 0-109.67-43.66Q326.67-568 326.67-634t43.66-109.67Q414-787.33 480-787.33t109.67 43.66Q633.33-700 633.33-634t-43.66 109.67Q546-480.67 480-480.67ZM160-160v-100q0-36.67 18.5-64.17T226.67-366q65.33-30.33 127.66-45.5 62.34-15.17 125.67-15.17t125.33 15.5q62 15.5 127.28 45.3 30.54 14.42 48.96 41.81Q800-296.67 800-260v100H160Zm66.67-66.67h506.66V-260q0-14.33-8.16-27-8.17-12.67-20.5-19-60.67-29.67-114.34-41.83Q536.67-360 480-360t-111 12.17Q314.67-335.67 254.67-306q-12.34 6.33-20.17 19-7.83 12.67-7.83 27v33.33ZM480-547.33q37 0 61.83-24.84Q566.67-597 566.67-634t-24.84-61.83Q517-720.67 480-720.67t-61.83
+								 24.84Q393.33-671 393.33-634t24.84 61.83Q443-547.33 480-547.33Zm0-86.67Zm0 407.33Z" />
+                        </svg>
+                        <h5>Mohamed</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet
+                            consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+
+                    </div>
+                    <div class="column column-3"><svg xmlns="http://www.w3.org/2000/svg" height="40px"
+                            viewBox="0 -960 960 960" width="40px" fill="#000000">
+                            <path
+                                d="M480-480.67q-66 0-109.67-43.66Q326.67-568 326.67-634t43.66-109.67Q414-787.33 480-787.33t109.67 43.66Q633.33-700 633.33-634t-43.66 109.67Q546-480.67 480-480.67ZM160-160v-100q0-36.67 18.5-64.17T226.67-366q65.33-30.33 127.66-45.5 62.34-15.17 125.67-15.17t125.33 15.5q62 15.5 127.28 45.3 30.54 14.42 48.96 41.81Q800-296.67 800-260v100H160Zm66.67-66.67h506.66V-260q0-14.33-8.16-27-8.17-12.67-20.5-19-60.67-29.67-114.34-41.83Q536.67-360 480-360t-111 12.17Q314.67-335.67 254.67-306q-12.34 6.33-20.17 19-7.83 12.67-7.83 27v33.33ZM480-547.33q37 0 61.83-24.84Q566.67-597 566.67-634t-24.84-61.83Q517-720.67 480-720.67t-61.83 24.84Q393.33-671 393.33-634t24.84 61.83Q443-547.33 480-547.33Zm0-86.67Zm0 407.33Z" />
+                        </svg>
+                        <h5>Oliver</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet
+                            consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div><!--#temoignages-->
+        <div class="fullWidth" id="contact">
+            <div class="grid">
+                <div class="grid-header">
+                    <h2 class="title">Contactez Nous</h2>
+                </div>
+                <div class="grid-body">
+                    <div class="column column-1">
+                        <h3>Avez-vous des questions ?</h3>
+                        <p> Remplissez le formulaire, pour recevoir l'appel d'un conseiller commercial </p>
+                    </div>
+                    <div class="column column-2">
+                        <form method="post">
+                            <div class="form-control">
+                                <input class="input" type="text" placeholder="Nom et Prénom">
+                                <span class="feedback"></span>
+                            </div>
+                            <div class="form-control">
+                                <input class="input" type="tel" placeholder="Numéro de téléphone">
+                                <span class="feedback"></span>
+                            </div>
+                            <div class="form-control">
+                                <textarea class="textarea" placeholder="Message"></textarea>
+                            </div>
+                            <div class="form-control">
+                                <button type="submit" class="submit-button">Envoyer</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="grid-footer"></div>
+            </div>
+        </div><!--#contact-->
+
+    </div><!--page-body-->
+
+
+    <div class="fullwidth" id="page-footer">
+        <a> &copy monentreprise. 2024 Tous droits reservés à Caddy-TECH</a>
+    </div><!--#page-footer-->
+
+
+
+</body>
+
+</html>
